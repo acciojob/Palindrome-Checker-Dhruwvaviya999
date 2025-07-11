@@ -2,8 +2,8 @@
 
 function palindrome(str){
 	if(str === str.split("").reverse()){
-		return { message: true };
+		return true;
 	}
-	return { message: false };
+	return false;
 }
 module.exports = palindrome
